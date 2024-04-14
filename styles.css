@@ -1,0 +1,68 @@
+:root {
+    --main-color: #e3f6f5;
+    --second-color: #272343;
+    --third-color: #fffffe;
+    --btn-color: #e3f6f5;
+    --btn-hover: #bae8e8;
+    --input-color: #f9f4ef;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--main-color);
+    text-align: center;
+    margin-top: 100px;
+}
+
+#container {
+    background-color: var(--second-color);
+    width: 300px;
+    min-height: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 10px
+}
+
+#input-form {
+    background-color: var(--third-color);
+    height: 370px;
+    width: 270px;
+    margin: 20px auto 10px;
+    padding: 10px 5px;
+}
+
+button {
+    background-color: var(--btn-color);
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: auto;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--btn-hover);
+}
+
+label {
+    font-size: 25px;
+}
+
+input {
+    height: 30px;
+    width: 80%;
+    margin-top: 15px;
+    background-color: var(--input-color);
+    border-radius: 5px;
+}
+
+#results-div {
+    padding-top: 35px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--second-color);
+}
